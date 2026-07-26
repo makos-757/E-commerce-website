@@ -84,16 +84,6 @@ const products = [
     reviews: 186,
     image: "https://m.media-amazon.com/images/I/71jzvekd3QL._AC_SL1500_.jpg",
     link: "https://amzn.to/4vRZvdh"
-  },
-  {
-    id: 9,
-    title: "Wireless Bluetooth Earbuds",
-    desc: "True wireless earbuds, 40hr battery, ANC, IPX5 waterproof, touch control, USB-C charging",
-    price: 29.99,
-    rating: 4.0,
-    reviews: 5420,
-    image: "https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_SL1500_.jpg",
-    link: "https://amzn.to/4amznEarbuds"
   }
 ];
 
