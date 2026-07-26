@@ -86,6 +86,7 @@ button {
   max-height: 80px;
   width: auto;
   height: auto;
+  border-radius: 50%;
   transition: opacity var(--transition);
 }
 
@@ -103,11 +104,15 @@ button {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--white);
-  transition: opacity var(--transition);
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  transition: background var(--transition), color var(--transition), opacity var(--transition);
 }
 
 .nav-link:hover {
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  opacity: 0.9;
 }
 
 .cart-toggle {
