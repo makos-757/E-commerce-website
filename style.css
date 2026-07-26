@@ -78,12 +78,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 64px;
 }
 
 .logo img {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 56px;
+  max-height: 56px;
   width: auto;
   height: auto;
   border-radius: 50%;
@@ -435,11 +435,11 @@ button {
   }
 
   .header-inner {
-    height: 64px;
+    height: 56px;
   }
 
   .logo img {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 48px;
+    max-height: 48px;
   }
 }
