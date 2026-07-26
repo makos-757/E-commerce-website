@@ -371,25 +371,26 @@ button {
 .site-footer {
   background: var(--blue);
   color: var(--white);
-  padding: 1.5rem 0;
-  margin-top: 2rem;
+  padding: 0.75rem 0;
+  margin-top: 1rem;
 }
 
 .footer-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  gap: 1rem;
 }
 
 .footer-nav {
   display: flex;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .footer-nav a {
   color: var(--white);
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   transition: opacity var(--transition);
 }
 
